@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "editor.dropIntoEditor.preferences": [
+    ],
+
+    "editor.fontSize": 14,
+    "window.zoomLevel": 0.5,
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.iconTheme": "vscode-icons",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable",
+}
